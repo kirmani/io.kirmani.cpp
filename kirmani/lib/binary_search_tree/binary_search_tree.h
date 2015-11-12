@@ -94,6 +94,18 @@ class BinarySearchTree {
     postorderTraversalHelper_(root_, &result);
     return result;
   }
+
+  void Remove(T val) {
+    // TODO(kirmani): Write this
+  }
+
+  int Height() {
+    return -1;  // TODO(kirmani): Write this
+  }
+
+  int Size() {
+    return -1;  // TODO(kirmani): Write this
+  }
 };
 
 #endif  // BINARY_SEARCH_TREE_BINARY_SEARCH_TREE_H_
